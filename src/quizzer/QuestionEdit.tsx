@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Question, QuestionType } from "../interfaces/question";
+import { Form, Button } from "react-bootstrap";
 
 import "./QuestionEdit.css";
 
@@ -10,10 +11,24 @@ export const QuestionEdit = ({
     editQuestion,
     removeQuestion,
     swapQuestion
-}: {}) => {
+}: {
+    index: number;
+    lastIndex:number;
+    question:Question;
+    editQuestion: (questionId: number, updateQuestion:Question)=> void;
+    removeQuestion: (questionId: number) => void;
+    swapQuestion: (currentIndex: number, newIndex: number) => void;
+}) => {
     const [a, b] = useState<number>(
         question.options.findIndex((s: string) => question.expected === s)
     );
+
+    const handleSwitch = (e: React.ChangeEvent<HTMLInputElement>) => {
+        editQuestion(question.id, {
+            ...question, 
+            type: e.target.value as QuestionType,
+        })
+    }
 
     const handleNumOptions = (e: React.ChangeEvent<HTMLInputElement>) => {
         b(0);
@@ -27,7 +42,7 @@ export const QuestionEdit = ({
         });
     };
 
-    const switchMulti = () => {
+    /*const switchMulti = () => {
         b(0);
         editQuestion(question.id, {
             ...question,
@@ -35,7 +50,7 @@ export const QuestionEdit = ({
             expected: "Example Answer",
             options: Array(3).fill("Example Answer")
         });
-    };
+    };*/
 
     const handlePoints = (e: React.ChangeEvent<HTMLInputElement>) => {
     	question.points = parseInt(e.target.value)
@@ -111,7 +126,10 @@ export const QuestionEdit = ({
                                 <Form.Select
                                     className="type_dropdown"
                                     value={question.type}
-                                    onChange={handleSwitch}
+                                    onChange={(e: React.ChangeEvent<HTMLSelectElement>) => {
+                                        // eslint-disable-next-line @typescript-eslint/no-unused-expressions
+                                        handleSwitch;
+                                    }}
                                 >
                                     <option
                                         data-testid={

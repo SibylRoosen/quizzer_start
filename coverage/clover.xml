@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1698372650834" clover="3.2.0">
+  <project timestamp="1698372650835" name="All files">
+    <metrics statements="146" coveredstatements="33" conditionals="56" coveredconditionals="9" methods="74" coveredmethods="10" elements="276" coveredelements="52" complexity="0" loc="146" ncloc="146" packages="3" files="12" classes="12"/>
+    <package name="src">
+      <metrics statements="3" coveredstatements="2" conditionals="4" coveredconditionals="2" methods="2" coveredmethods="1"/>
+      <file name="App.tsx" path="/Users/sibyl/quizzer_start/src/App.tsx">
+        <metrics statements="3" coveredstatements="2" conditionals="4" coveredconditionals="2" methods="2" coveredmethods="1"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.interfaces">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="question.ts" path="/Users/sibyl/quizzer_start/src/interfaces/question.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="quiz.ts" path="/Users/sibyl/quizzer_start/src/interfaces/quiz.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.quizzer">
+      <metrics statements="143" coveredstatements="31" conditionals="52" coveredconditionals="7" methods="72" coveredmethods="9"/>
+      <file name="AddQuizModal.tsx" path="/Users/sibyl/quizzer_start/src/quizzer/AddQuizModal.tsx">
+        <metrics statements="14" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="1"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="13" count="15" type="stmt"/>
+        <line num="14" count="15" type="stmt"/>
+        <line num="16" count="15" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="23" count="15" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+      </file>
+      <file name="QuestionEdit.tsx" path="/Users/sibyl/quizzer_start/src/quizzer/QuestionEdit.tsx">
+        <metrics statements="30" coveredstatements="1" conditionals="12" coveredconditionals="0" methods="16" coveredmethods="0"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="131" count="0" type="stmt"/>
+        <line num="175" count="0" type="stmt"/>
+        <line num="188" count="0" type="stmt"/>
+        <line num="209" count="0" type="stmt"/>
+        <line num="227" count="0" type="stmt"/>
+        <line num="236" count="0" type="stmt"/>
+        <line num="252" count="0" type="stmt"/>
+        <line num="261" count="0" type="stmt"/>
+      </file>
+      <file name="QuizCard.tsx" path="/Users/sibyl/quizzer_start/src/quizzer/QuizCard.tsx">
+        <metrics statements="5" coveredstatements="4" conditionals="5" coveredconditionals="4" methods="3" coveredmethods="2"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="14" count="75" type="stmt"/>
+        <line num="16" count="300" type="cond" truecount="3" falsecount="0"/>
+        <line num="19" count="75" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+      </file>
+      <file name="QuizEdit.tsx" path="/Users/sibyl/quizzer_start/src/quizzer/QuizEdit.tsx">
+        <metrics statements="27" coveredstatements="1" conditionals="6" coveredconditionals="0" methods="15" coveredmethods="0"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="54" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="55" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="91" count="0" type="stmt"/>
+        <line num="104" count="0" type="stmt"/>
+        <line num="112" count="0" type="stmt"/>
+        <line num="128" count="0" type="stmt"/>
+        <line num="154" count="0" type="stmt"/>
+        <line num="155" count="0" type="stmt"/>
+        <line num="167" count="0" type="stmt"/>
+        <line num="168" count="0" type="stmt"/>
+      </file>
+      <file name="QuizExpanded.tsx" path="/Users/sibyl/quizzer_start/src/quizzer/QuizExpanded.tsx">
+        <metrics statements="27" coveredstatements="1" conditionals="7" coveredconditionals="0" methods="12" coveredmethods="0"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="61" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="105" count="0" type="stmt"/>
+      </file>
+      <file name="QuizList.tsx" path="/Users/sibyl/quizzer_start/src/quizzer/QuizList.tsx">
+        <metrics statements="11" coveredstatements="8" conditionals="4" coveredconditionals="3" methods="5" coveredmethods="3"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="19" count="15" type="stmt"/>
+        <line num="21" count="15" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="25" count="15" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="29" count="15" type="stmt"/>
+        <line num="34" count="75" type="stmt"/>
+        <line num="46" count="75" type="cond" truecount="1" falsecount="1"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="57" count="75" type="stmt"/>
+      </file>
+      <file name="QuizQuestion.tsx" path="/Users/sibyl/quizzer_start/src/quizzer/QuizQuestion.tsx">
+        <metrics statements="10" coveredstatements="1" conditionals="14" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+      </file>
+      <file name="QuizView.tsx" path="/Users/sibyl/quizzer_start/src/quizzer/QuizView.tsx">
+        <metrics statements="5" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+      </file>
+      <file name="Quizzer.tsx" path="/Users/sibyl/quizzer_start/src/quizzer/Quizzer.tsx">
+        <metrics statements="14" coveredstatements="9" conditionals="2" coveredconditionals="0" methods="10" coveredmethods="3"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="10" type="stmt"/>
+        <line num="14" count="40" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="17" type="stmt"/>
+        <line num="25" count="15" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="48" count="15" type="stmt"/>
+        <line num="49" count="15" type="stmt"/>
+        <line num="51" count="15" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
